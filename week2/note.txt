@@ -1,0 +1,28 @@
+Kiến trúc client-server:
+  - Server liên tục online, có địa chỉ cố định
+  - Client có thể địa chỉ động, không tương tác trực tiếp với client khác.
+
+P2P:
+  - Không có central server
+  - Equal role
+  - Các máy có thể kết nối với nhau
+  - Không thể luôn online
+
+Hybrid:
+  - Có central server
+  - Truyền file P2P
+  - Server chủ yếu quản lý đăng nhập
+
+Process: pogram running within a host.
+  - Trong 1 host, các tiến trình giao tiếp thông qua inter-process communication (defined by process)
+  - Các tiến trình trong các host khác nhau giao tiếp và trao đổi messages
+
+Socket: Tiến trình gửi/nhận messages to/from sockets
+  - Socket address = IP + port
+
+Forwarding: move packets from router's input to appropriate router output
+Routing: determine route taken...
+
+Chia địa chỉ theo lớp
+Chia theo CIDR (Classless InterDomain Routing): 192.168.1.1/24
+NAT: network address translation
